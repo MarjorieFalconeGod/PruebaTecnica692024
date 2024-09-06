@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Cliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Cliente.cshtml",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Cliente.cshtml",
+              "RelativeToolTip": "Views\\Home\\Cliente.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T20:05:54.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Administrador.cshtml",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Administrador.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Administrador.cshtml",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Administrador.cshtml",
+              "RelativeToolTip": "Views\\Home\\Administrador.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T20:05:49.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T20:05:09.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
