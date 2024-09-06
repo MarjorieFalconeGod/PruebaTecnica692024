@@ -1,4 +1,4 @@
-﻿namespace WebAPP_Marjorie_Falcone_202496.Service.Prestamo
+﻿namespace WebAPP_Marjorie_Falcone_202496.Service.Prestamos
 {
     public class PrestamoServices:IPrestamoServices
     {

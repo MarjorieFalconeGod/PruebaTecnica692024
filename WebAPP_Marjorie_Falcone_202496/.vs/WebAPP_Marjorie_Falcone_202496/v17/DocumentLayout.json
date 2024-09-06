@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\administrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|c:\\users\\adavila\\desktop\\mayu\\6-9-2024\\pruebatecnica692024\\webapp_marjorie_falcone_202496\\service\\clientes\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040CC09C-67A9-4CA8-A9E9-2B0AEDBFE165}|WebAPP_Marjorie_Falcone_202496.csproj|solutionrelative:service\\clientes\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Cliente.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Cliente.cshtml",
-              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Cliente.cshtml",
-              "RelativeToolTip": "Views\\Home\\Cliente.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAABEAAAA",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T20:05:54.473Z",
+              "WhenOpened": "2024-09-06T22:14:09.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Administrador.cshtml",
-              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Administrador.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Administrador.cshtml",
-              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Administrador.cshtml",
-              "RelativeToolTip": "Views\\Home\\Administrador.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T20:05:49.447Z",
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T22:04:39.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T20:05:09.066Z",
+              "WhenOpened": "2024-09-06T22:12:37.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteServices.cs",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Service\\Clientes\\ClienteServices.cs",
+              "RelativeDocumentMoniker": "Service\\Clientes\\ClienteServices.cs",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Service\\Clientes\\ClienteServices.cs",
+              "RelativeToolTip": "Service\\Clientes\\ClienteServices.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T21:48:52.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Users\\adavila\\Desktop\\Mayu\\6-9-2024\\PruebaTecnica692024\\WebAPP_Marjorie_Falcone_202496\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "Controllers\\PagosController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T22:19:36.999Z",
               "EditorCaption": ""
             }
           ]

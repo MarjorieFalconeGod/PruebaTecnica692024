@@ -14,10 +14,10 @@ namespace WebAPP_Marjorie_Falcone_202496.Data
         {
         }
 
-        public DbSet<WebAPI__Marjorie_Falcone_202496.Models.Cliente> Cliente { get; set; } = default!;
+        public DbSet<Cliente> Cliente { get; set; } = default!;
 
-        public DbSet<WebAPI__Marjorie_Falcone_202496.Models.Pago>? Pago { get; set; }
+        public DbSet<Pago>? Pago { get; set; }
 
-        public DbSet<WebAPI__Marjorie_Falcone_202496.Models.Prestamo>? Prestamo { get; set; }
+        public DbSet<Prestamo>? Prestamo { get; set; }
     }
 }

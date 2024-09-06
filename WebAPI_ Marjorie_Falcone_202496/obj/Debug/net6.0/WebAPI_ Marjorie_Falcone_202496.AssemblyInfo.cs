@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI_ Marjorie_Falcone_202496")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+766aca3b04b49f6fbcaf158988ee2bbf67d5ad15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df99e056e869aa3a074587a87183c2040b932c15")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPI_ Marjorie_Falcone_202496")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPI_ Marjorie_Falcone_202496")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

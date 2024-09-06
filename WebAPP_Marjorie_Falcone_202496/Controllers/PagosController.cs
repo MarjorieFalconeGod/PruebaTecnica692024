@@ -10,87 +10,87 @@ using WebAPP_Marjorie_Falcone_202496.Data;
 
 namespace WebAPP_Marjorie_Falcone_202496.Controllers
 {
-    public class PrestamoesController : Controller
+    public class PagosController : Controller
     {
         private readonly WebAPP_Marjorie_Falcone_202496Context _context;
 
-        public PrestamoesController(WebAPP_Marjorie_Falcone_202496Context context)
+        public PagosController(WebAPP_Marjorie_Falcone_202496Context context)
         {
             _context = context;
         }
 
-        // GET: Prestamoes
+        // GET: Pagoes
         public async Task<IActionResult> Index()
         {
-              return _context.Prestamo != null ? 
-                          View(await _context.Prestamo.ToListAsync()) :
-                          Problem("Entity set 'WebAPP_Marjorie_Falcone_202496Context.Prestamo'  is null.");
+              return _context.Pago != null ? 
+                          View(await _context.Pago.ToListAsync()) :
+                          Problem("Entity set 'WebAPP_Marjorie_Falcone_202496Context.Pago'  is null.");
         }
 
-        // GET: Prestamoes/Details/5
+        // GET: Pagoes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Prestamo == null)
+            if (id == null || _context.Pago == null)
             {
                 return NotFound();
             }
 
-            var prestamo = await _context.Prestamo
-                .FirstOrDefaultAsync(m => m.IdPrestamo == id);
-            if (prestamo == null)
+            var pago = await _context.Pago
+                .FirstOrDefaultAsync(m => m.IdPago == id);
+            if (pago == null)
             {
                 return NotFound();
             }
 
-            return View(prestamo);
+            return View(pago);
         }
 
-        // GET: Prestamoes/Create
+        // GET: Pagoes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Prestamoes/Create
+        // POST: Pagoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdPrestamo,Monto,Plazo,TasaInteres,Estado,IdCliente")] Prestamo prestamo)
+        public async Task<IActionResult> Create([Bind("IdPago,IdPrestamo,FechaPago,Monto,Capital,Interes,Comisiones")] Pago pago)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(prestamo);
+                _context.Add(pago);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(prestamo);
+            return View(pago);
         }
 
-        // GET: Prestamoes/Edit/5
+        // GET: Pagoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Prestamo == null)
+            if (id == null || _context.Pago == null)
             {
                 return NotFound();
             }
 
-            var prestamo = await _context.Prestamo.FindAsync(id);
-            if (prestamo == null)
+            var pago = await _context.Pago.FindAsync(id);
+            if (pago == null)
             {
                 return NotFound();
             }
-            return View(prestamo);
+            return View(pago);
         }
 
-        // POST: Prestamoes/Edit/5
+        // POST: Pagoes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdPrestamo,Monto,Plazo,TasaInteres,Estado,IdCliente")] Prestamo prestamo)
+        public async Task<IActionResult> Edit(int id, [Bind("IdPago,IdPrestamo,FechaPago,Monto,Capital,Interes,Comisiones")] Pago pago)
         {
-            if (id != prestamo.IdPrestamo)
+            if (id != pago.IdPago)
             {
                 return NotFound();
             }
@@ -99,12 +99,12 @@ namespace WebAPP_Marjorie_Falcone_202496.Controllers
             {
                 try
                 {
-                    _context.Update(prestamo);
+                    _context.Update(pago);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PrestamoExists(prestamo.IdPrestamo))
+                    if (!PagoExists(pago.IdPago))
                     {
                         return NotFound();
                     }
@@ -115,49 +115,49 @@ namespace WebAPP_Marjorie_Falcone_202496.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(prestamo);
+            return View(pago);
         }
 
-        // GET: Prestamoes/Delete/5
+        // GET: Pagoes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Prestamo == null)
+            if (id == null || _context.Pago == null)
             {
                 return NotFound();
             }
 
-            var prestamo = await _context.Prestamo
-                .FirstOrDefaultAsync(m => m.IdPrestamo == id);
-            if (prestamo == null)
+            var pago = await _context.Pago
+                .FirstOrDefaultAsync(m => m.IdPago == id);
+            if (pago == null)
             {
                 return NotFound();
             }
 
-            return View(prestamo);
+            return View(pago);
         }
 
-        // POST: Prestamoes/Delete/5
+        // POST: Pagoes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Prestamo == null)
+            if (_context.Pago == null)
             {
-                return Problem("Entity set 'WebAPP_Marjorie_Falcone_202496Context.Prestamo'  is null.");
+                return Problem("Entity set 'WebAPP_Marjorie_Falcone_202496Context.Pago'  is null.");
             }
-            var prestamo = await _context.Prestamo.FindAsync(id);
-            if (prestamo != null)
+            var pago = await _context.Pago.FindAsync(id);
+            if (pago != null)
             {
-                _context.Prestamo.Remove(prestamo);
+                _context.Pago.Remove(pago);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PrestamoExists(int id)
+        private bool PagoExists(int id)
         {
-          return (_context.Prestamo?.Any(e => e.IdPrestamo == id)).GetValueOrDefault();
+          return (_context.Pago?.Any(e => e.IdPago == id)).GetValueOrDefault();
         }
     }
 }

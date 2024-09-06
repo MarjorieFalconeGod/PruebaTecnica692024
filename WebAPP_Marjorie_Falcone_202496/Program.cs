@@ -1,14 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using WebAPP_Marjorie_Falcone_202496.Data;
-using WebAPP_Marjorie_Falcone_202496.Service.Cliente;
-using WebAPP_Marjorie_Falcone_202496.Service.Pago;
-using WebAPP_Marjorie_Falcone_202496.Service.Prestamo;
+using WebAPP_Marjorie_Falcone_202496.Service.Clientes;
+using WebAPP_Marjorie_Falcone_202496.Service.Pagos;
+using WebAPP_Marjorie_Falcone_202496.Service.Prestamos;
 
 var builder = WebApplication.CreateBuilder(args);
   
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddScoped<IClienteServices, ClienteServices>();
 builder.Services.AddScoped<IPagoServices, PagoServices>();
 builder.Services.AddScoped<IPrestamoServices, PrestamoServices>();

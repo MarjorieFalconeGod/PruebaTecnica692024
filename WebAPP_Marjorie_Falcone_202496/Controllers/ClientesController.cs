@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebAPI__Marjorie_Falcone_202496.Models;
 using WebAPP_Marjorie_Falcone_202496.Data;
-using WebAPP_Marjorie_Falcone_202496.Service.Cliente;
+using WebAPP_Marjorie_Falcone_202496.Service.Clientes;
 
 namespace WebAPP_Marjorie_Falcone_202496.Controllers
 {
@@ -20,26 +20,14 @@ namespace WebAPP_Marjorie_Falcone_202496.Controllers
             _ClienteService = ClienteService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Crear([FromBody] Cliente Cliente)
-        {
-            var Clientes = await _ClienteService.Crear(Cliente);
-            return Json(Clientes);
-        }
 
-
-        [HttpPut]
-        public async Task<IActionResult> Actualizar(
-       [FromBody] Cliente Cliente)
+        public async Task<IActionResult> Actualizar([FromBody] Cliente Cliente)
         {
             var Clientes = await _ClienteService.Actualizar(Cliente);
             return Json(Clientes);
         }
 
-
-
-        [HttpGet]
-        public async Task<IActionResult> VerCliente([FromQuery] int codigo)
+        public async Task<IActionResult> Ver(int codigo)
         {
             var Clientes = await _ClienteService.ver(codigo);
             return Json(Clientes);
@@ -56,5 +44,13 @@ namespace WebAPP_Marjorie_Falcone_202496.Controllers
         {
             return View();
         }
+
+        public async Task<IActionResult> Guardar([FromBody] Cliente Cliente)
+        {
+            var Clientes = await _ClienteService.Crear(Cliente);
+            return Json(Clientes);
+        }
+
+
     }
 }
